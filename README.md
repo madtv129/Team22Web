@@ -2,7 +2,7 @@
 
 
 mark deguzman was here >:)
-
+Kelvin was here too B)
 
 * [General info](#general-info)
 * [Technologies](#technologies)
