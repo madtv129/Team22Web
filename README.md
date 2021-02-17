@@ -3,6 +3,8 @@
 
 mark deguzman was here >:)
 
+Hyeon(Paul) was here.
+
 
 * [General info](#general-info)
 * [Technologies](#technologies)
