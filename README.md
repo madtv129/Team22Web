@@ -2,9 +2,13 @@
 
 
 mark deguzman was here >:)
+<<<<<<< HEAD
 
 Hyeon(Paul) was here.
 
+=======
+Kelvin was here too B)
+>>>>>>> 3fefb2e2201458a556f393e9c01c666b41aba34d
 
 * [General info](#general-info)
 * [Technologies](#technologies)
