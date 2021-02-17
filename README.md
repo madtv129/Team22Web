@@ -2,10 +2,14 @@
 
 
 mark deguzman was here >:)
+<<<<<<< HEAD
 
 grace tsang
 
 signin.html
+=======
+Kelvin was here too B)
+>>>>>>> 527ec9c9c1d7cef061d64920975e5c0a99f3da52
 
 * [General info](#general-info)
 * [Technologies](#technologies)
