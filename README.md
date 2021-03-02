@@ -2,20 +2,12 @@
 
 
 mark deguzman was here >:)
-<<<<<<< HEAD
 
 grace tsang
 
-signin.html
-=======
-<<<<<<< HEAD
-
 Hyeon(Paul) was here.
 
-=======
 Kelvin was here too B)
->>>>>>> 3fefb2e2201458a556f393e9c01c666b41aba34d
->>>>>>> 511dffdbba20d2fece90d8737c6ed0a0f5661872
 
 * [General info](#general-info)
 * [Technologies](#technologies)
