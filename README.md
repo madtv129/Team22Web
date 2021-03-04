@@ -2,7 +2,18 @@
 
 
 mark deguzman was here >:)
+<<<<<<< HEAD
+=======
 
+grace tsang
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f98743bf8e8bd9809714fdf58770332b29fd0f5e
+
+=======
+>>>>>>> fed82d3fefebba0a6fcd0eda94f7e7ae7c3bc834
 Hyeon(Paul) was here.
 
 Kelvin was here too B)
