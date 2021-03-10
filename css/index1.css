@@ -1,0 +1,42 @@
+
+#parallax {
+    /* The image used */
+    background-image: url("/Team22Web/images/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #555;
+}
+
+.parallaxtextHead {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50pt;
+}
+
+.parallaxtext {
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 25pt;
+}
+
+.headerCenterBody {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50pt;
+}
+
+.bodyCenterBody {
+    font-size: 20pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
