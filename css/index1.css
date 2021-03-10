@@ -1,7 +1,7 @@
 
 #parallax {
     /* The image used */
-    background-image: url("/Team22Web/images/parallax.jpg");
+    background-image: url("/images/parallax.jpg");
 
     /* Set a specific height */
     min-height: 700px; 
@@ -11,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 5px solid black;
+    border: 5px solid #555;
 }
 
 .parallaxtextHead {
