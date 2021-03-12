@@ -14,6 +14,7 @@
 
 
     <!-- Optional styles and scripts of your own -->
+    <link rel="stylesheet" href="styles/profile.css" />
 
 
 </head>
@@ -62,32 +63,35 @@
     <div class="container">
         <br/>
         <h3 style="text-align: center;">Profile</h3>
-        <table class="table">
+        <table style="margin-right: auto; margin-left: auto;">
             <thead>
               <tr>
                 <th scope="col"></th>
                 <th scope="col"></th>
-                <th scope="col"></th>
+                
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">Name:</th>
-                <td id="names">Timmy's Coffee Blend</td>
-                <td><button id="btn1" type="button" class="btn btn-info">Edit</button></td>
+                <th scope="row" style="padding: 30px;">Name:</th>
+                <td id="names" style="padding: 30px;">Timmy's Coffee Blend</td>
+                
               </tr>
               <tr>
-                <th scope="row">Address: </th>
-                <td id="addresses">22-1800 Last st. Burnaby, BC C2S 2T2 </td>
-                <td><button id="btn2" type="button" class="btn btn-info">Edit</button></td>
+                <th scope="row" style="padding: 30px;">Address: </th>
+                <td id="addresses" style="padding: 30px;">22-1800 Last st. Burnaby, BC C2S 2T2 </td>
+                
               </tr>
               <tr>
-                <th scope="row">Information: </th>
-                <td id="intros">Hello, we are family run coffee shop!<br/>We have been opened since 2000</td>
-                <td><button id="btn3" type="button" class="btn btn-info">Edit</button></td>
+                <th scope="row" style="padding: 30px;">Information: </th>
+                <td id="intros" style="padding: 30px;">Hello, we are family run coffee shop!<br/>We have been opened since 2000</td>
+               
               </tr>
             </tbody>
           </table>
+    </div>
+    <div style="text-align: center;">
+    <button id="btn" type="button" class="btn btn-info">Edit</button>
     </div>
 
     <!----------------------------------------------->
@@ -102,9 +106,12 @@
     <!--------------------------------------------------------------------->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
-       // $("btn1").click(function(){
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#names").html("e");
+            });
 
-        //})
+        });
     </script>
 
 
