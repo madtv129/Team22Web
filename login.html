@@ -5,7 +5,7 @@
     <title>My BCIT Project</title>
     <meta name="comp1800 boilerplate code" content="my bcit project" />
     <meta name="author" content="BCIT" />
-
+    <link href="./css/login1.css" rel="stylesheet" type="text/css" />
     <!-- Bootstrap, Firebase AuthUI -->
     <meta
       name="viewport"
@@ -32,13 +32,14 @@
     <!-- The following is HTML for layout -->
     <!-------------------------------------->
     <!-- Header Navigation Bar -->
-
-    <div class="container">
-      <h1 class="display-4">Hello, World! Welcome to LastMeal</h1>
-      <h1>Let's get you logged in ...</h1>
-      <div id="firebaseui-auth-container"></div>
-      <div id="loader">Loading...</div>
-    </div>
+    <div id=login>
+        <div class="container">
+            <h1 class="display-4 whiteText">Hello, Welcome to LastMeal</h1>
+            <h1 class="whiteText">Sign up / Sign in to get started!</h1>
+            <div id="firebaseui-auth-container"></div>
+            <div id="loader">Loading...</div>
+        </div>
+    </div>  
 
     <!----------------------------------------------->
     <!-- JS: Boostrap, JQuery, Firebase, API related    -->
@@ -60,7 +61,6 @@
     <!--------------------------------------------------------------------->
     <!-- JS files: Your own JavaScript functions included here    -->
     <!--------------------------------------------------------------------->
-
     <script>
       // Initialize the FirebaseUI Widget using Firebase.
       var ui = new firebaseui.auth.AuthUI(firebase.auth());
@@ -108,7 +108,7 @@
         },
         // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
         signInFlow: "popup",
-        signInSuccessUrl: "main.html",
+        signInSuccessUrl: "index.html",
         signInOptions: [
           // Leave the lines as is for the providers you want to offer your users.
           //firebase.auth.GoogleAuthProvider.PROVIDER_ID,

@@ -1,0 +1,13 @@
+#login {
+    background-image: url("../images/login.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.whiteText {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-shadow: 1px 1px 5px black;
+}
